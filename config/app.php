@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://iotts.ittelkom-sby.ac.id/'),
+    'url' => env('APP_URL', 'http://iotts.ittelkom-sby.ac.id/'),
 
     'asset_url' => env('ASSET_URL'),
 
