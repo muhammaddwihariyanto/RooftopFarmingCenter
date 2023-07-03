@@ -1,0 +1,109 @@
+.jumbotron {
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  background-color: #bedbc9;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  margin-top: 100px;
+  padding-bottom: 56.25%; /* Adjust this value to control the video aspect ratio */
+}
+
+.video-container2 {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* Adjust this value to control the video aspect ratio */
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.navbar {
+  background-color: #71b993;
+}
+
+#services {
+  border-radius: 2%;
+  background-color: #bedbc9;
+}
+
+.btn-1 {
+  --bs-btn-bg: #6ae4a3;
+  --bs-btn-active-bg: #6ae4a3;
+  --bs-btn-active-shadow: #6ae4a3;
+  --bs-btn-hover-bg: #1a4c37;
+  --bs-btn-border-color: #6ae4a3;
+  --bs-btn-active-border-color: #1a4c37;
+  --bs-btn-hover-border-color: #1a4c37;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-left {
+  animation: slideLeft 0.5s ease;
+}
+
+.slide-right {
+  animation: slideRight 0.5s ease;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.display-4 {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-top: 50px;
+}
+.nav-link {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.lead {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.mb-5 {
+  color: #fff;
+}
+
+.logoRFC {
+  width: 80px;
+}
+
+.logoITTS {
+  width: 110px;
+  padding-left: 10px;
+}
