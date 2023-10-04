@@ -19,7 +19,7 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light p-2">
     <img class="logoRFC" src="asset/image/logorfc-fotor.png" alt="logorfc">
     <img class="logoITTS" src="asset/image/logoITTS.png" alt="logoitts">
     <a class="navbar-brand" href="#"></a>
