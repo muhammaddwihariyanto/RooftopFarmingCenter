@@ -40,6 +40,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#mitra">Mitra</a>
         </li>
+        <li class="nav-item">
+          <a href="/dashboard"><button class="btn btn-primary">RFC-App</button></a>
+        </li>
       </ul>
     </div>
   </nav>
