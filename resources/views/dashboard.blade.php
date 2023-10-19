@@ -8,7 +8,7 @@
       <h1 class="text-success">Dashboard</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a class=" text-success" href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a class=" text-success" href="{{ url('/home') }}">Home</a></li>
           <li class="breadcrumb-item active text-success">Dashboard</li>
         </ol>
       </nav>
@@ -86,10 +86,10 @@
                     </div>
                   </div>
                 </div>
-               
+
               </div>
 
-              
+
             </div>
             <div class="col-md-6">
               <div class="card info-card revenue-card">
@@ -121,10 +121,10 @@
                     </div>
                   </div>
                 </div>
-               
+
               </div>
 
-              
+
             </div>
             <div class="col-md-6">
               <div class="card info-card sales-card">
@@ -156,14 +156,14 @@
                     </div>
                   </div>
                 </div>
-               
+
               </div>
 
-              
+
             </div>
             <!-- End Revenue Card -->
             <div class="row">
-                
+
             </div>
             <!-- Sensor 5 Card -->
             <div class="col-xxl-4 col-xl-12">
@@ -358,7 +358,7 @@
                   <!-- End Line Chart -->
                 </div>
               </div>
-            </div>        
+            </div>
           </div>
         </div>
         <!-- End Left side columns -->
@@ -444,7 +444,7 @@
             </div>
           </div><!-- End Website Traffic -->
 
-      
+
           <!-- Budget Report -->
           <div class="card">
             <div class="filter">
@@ -520,8 +520,8 @@
           </div
           ><!-- End Budget Report -->
 
-         
-         
+
+
         </div><!-- End Right side columns -->
 
       </div>
