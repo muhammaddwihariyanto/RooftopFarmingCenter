@@ -8,7 +8,7 @@
       <h1 class="text-success">Dashboard</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a class=" text-success" href="{{route("/")}}">Home</a></li>
+          <li class="breadcrumb-item"><a class=" text-success" href="/home">Home</a></li>
           <li class="breadcrumb-item active text-success">Dashboard</li>
         </ol>
       </nav>
