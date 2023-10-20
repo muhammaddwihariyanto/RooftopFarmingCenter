@@ -455,24 +455,24 @@
                                                 show: false
                                             },
                                             data: [{
-                                                    value: 1048,
-                                                    name: 'Search Engine'
+                                                    value: 6.34,
+                                                    name: 'pH'
                                                 },
                                                 {
-                                                    value: 735,
-                                                    name: 'Direct'
+                                                    value: 23.9,
+                                                    name: 'EC'
                                                 },
                                                 {
-                                                    value: 580,
-                                                    name: 'Email'
+                                                    value: 19.5,
+                                                    name: 'Soil Moisture'
                                                 },
                                                 {
-                                                    value: 484,
-                                                    name: 'Union Ads'
+                                                    value: 30,
+                                                    name: 'Soil Temperature'
                                                 },
                                                 {
-                                                    value: 300,
-                                                    name: 'Video Ads'
+                                                    value: 1.7,
+                                                    name: 'Nitrogen'
                                                 }
                                             ]
                                         }]
