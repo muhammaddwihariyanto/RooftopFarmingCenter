@@ -206,7 +206,7 @@
     <!-- ======= Content Start ======= -->
       @yield('content')
     <!-- ======= Content End ======= -->
-  
+
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
         <div class="copyright text-success">
@@ -217,7 +217,6 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-           Designed by <a class="text-success" href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </footer><!-- End Footer -->
 
@@ -236,7 +235,7 @@
       <!-- Template Main JS File -->
       <script src="back/js/main.js"></script>
       <!-- leaflet JS -->
-      <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="crossorigin=""></script>      
+      <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="crossorigin=""></script>
   </body>
 
 </html>

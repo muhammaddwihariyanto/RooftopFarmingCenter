@@ -32,7 +32,7 @@
                         data: [41, 11, 16, 9, 14, 40,13]
                       }, {
                         name: 'Potassium',
-                        data: [117, 30, 46, 25, 42, 113, 37]
+                        data: [77, 30, 46, 25, 42, 89, 37]
                       }, {
                         name: 'Tempratur Tanah',
                         data: [34, 34, 35, 37, 35, 34, 32]
@@ -61,7 +61,7 @@
                       },
                       yaxis: {
                         title: {
-                          text: '$ (thousands)'
+                          text: 'Nilai Satuan'
                         }
                       },
                       fill: {
@@ -86,7 +86,7 @@
         <div class="col-lg-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Humidity</h5>
+              <h5 class="card-title">Humidity <span>%</span></h5>
 
               <!-- Bar Chart -->
               <div id="barChart"></div>
@@ -95,7 +95,7 @@
                 document.addEventListener("DOMContentLoaded", () => {
                   new ApexCharts(document.querySelector("#barChart"), {
                     series: [{
-                      data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
+                      data: [40, 43, 44.8, 47, 54, 58, 69, 22, 29, 48]
                     }],
                     chart: {
                       type: 'bar',
