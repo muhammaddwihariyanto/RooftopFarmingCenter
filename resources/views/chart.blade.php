@@ -128,7 +128,7 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Level Baterai</h5>
+                    <h5 class="card-title">Kondisi Sensor</h5>
 
                     <!-- Pie Chart -->
                     <div id="pieChart"></div>
@@ -182,5 +182,5 @@
         </div>
     <!-- baris 2 end -->
     </div>
-</main>   
+</main>
   @endsection
