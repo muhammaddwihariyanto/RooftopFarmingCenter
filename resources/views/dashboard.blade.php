@@ -341,13 +341,13 @@
                                         document.addEventListener("DOMContentLoaded", () => {
                                             new ApexCharts(document.querySelector("#reportsChart"), {
                                                 series: [{
-                                                    name: 'Sales',
-                                                    data: [31, 40, 28, 51, 42, 82, 56],
+                                                    name: 'pH',
+                                                    data: [5, 7.8, 8, 11, 5, 4, 9],
                                                 }, {
-                                                    name: 'Revenue',
+                                                    name: 'EC',
                                                     data: [11, 32, 45, 32, 34, 52, 41]
                                                 }, {
-                                                    name: 'Customers',
+                                                    name: 'Soil Moisture',
                                                     data: [15, 11, 32, 18, 9, 24, 11]
                                                 }],
                                                 chart: {
