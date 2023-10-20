@@ -314,7 +314,7 @@
 
 
                         <!-- Reports -->
-                        <div class="col-12">
+                     <div class="col-12">
                             <div class="card">
 
                                 <div class="filter">
@@ -484,7 +484,7 @@
                     </div><!-- End Website Traffic -->
 
 
-                    <!-- Budget Report -->
+                    {{-- <!-- Budget Report -->
                     <div class="card">
                         <div class="filter">
                             <a class="icon" href="#" data-bs-toggle="dropdown"><i
@@ -557,7 +557,7 @@
                             </script>
 
                         </div>
-                    </div><!-- End Budget Report -->
+                    </div><!-- End Budget Report --> --}}
 
 
 
