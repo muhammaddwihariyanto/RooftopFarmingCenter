@@ -3,7 +3,7 @@
 <ul class="sidebar-nav" id="sidebar-nav">
 
   <li class="nav-item">
-    <a class="nav-link text-success" href="home">
+    <a class="nav-link text-success" href="/dashboard">
       <i class="bi bi-grid text-success"></i>
       <span>Dashboard</span>
     </a>
