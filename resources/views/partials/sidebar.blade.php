@@ -10,9 +10,16 @@
   </li>
 
   <li class="nav-item">
+    <a class="nav-link text-success" href="/tambah_sensor">
+      <i class="bi bi-plus-circle text-success"></i>
+      <span>Tambah Sensor</span>
+    </a>
+  </li>
+
+  <li class="nav-item">
     <a class="nav-link text-success" href="/table">
       <i class="bi bi-layout-text-window-reverse text-success"></i>
-      <span>Table</span>
+      <span>Daftar Sensor</span>
     </a>
   </li>
 

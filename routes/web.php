@@ -21,7 +21,7 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard', [
         "title" => "Dashboard",
-        "username" => "HWD",
+        "username" => "Admin",
         "roles" => "Admin",
         "image" => "pakdekan.png",
         "nama_lengkap" => "Dr. Helmy Widyantara"
@@ -31,7 +31,7 @@ Route::get('/dashboard', function () {
 Route::get('/table', function(){
     return view('table',[
         "title" => "Tabel",
-        "username" => "HWD",
+        "username" => "Admin",
         "roles" => "Admin",
         "image" => "pakdekan.png",
         "nama_lengkap" => "Dr. Helmy Widyantara"
@@ -41,7 +41,7 @@ Route::get('/table', function(){
 Route::get('/chart', function(){
     return view('chart',[
         "title" => "Chart",
-        "username" => "HWD",
+        "username" => "Admin",
         "roles" => "Admin",
         "image" => "pakdekan.png",
         "nama_lengkap" => "Dr. Helmy Widyantara"
@@ -50,8 +50,18 @@ Route::get('/chart', function(){
 
 Route::get('/peta', function(){
     return view('peta',[
-        "title" => "Denah",
-        "username" => "HWD",
+        "title" => "Denah Sensor",
+        "username" => "Admin",
+        "roles" => "Admin",
+        "image" => "pakdekan.png",
+        "nama_lengkap" => "Dr. Helmy Widyantara"
+    ]);
+});
+
+Route::get('/tambah_sensor', function(){
+    return view('tambah_sensor',[
+        "title" => "Tambah Sensor",
+        "username" => "Admin",
         "roles" => "Admin",
         "image" => "pakdekan.png",
         "nama_lengkap" => "Dr. Helmy Widyantara"

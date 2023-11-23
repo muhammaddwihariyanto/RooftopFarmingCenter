@@ -92,7 +92,7 @@
       };
 
       var overlayMaps = {
-        "Sensor LoRa": sensorLora
+        "Sensor Nitrogen": sensorLora
       };
 
       L.control.layers(baseLayers, overlayMaps).addTo(map);
