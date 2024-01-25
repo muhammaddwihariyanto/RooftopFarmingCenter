@@ -19,6 +19,7 @@ use Http;
 Route::get('/', function () {
     return view('home');
 });
+
 // Route::get('/', 'HomeController@index')->name('home1');
 // //Route::get('home', 'HomeController@index')->name('home');
 
@@ -103,12 +104,24 @@ Route::get('/dashboard', function () {
 });
 
 Route::get('/table', function(){
+    $nama = "Pak Helmy";    
     return view('table',[
         "title" => "Tabel",
         "username" => "Admin",
         "roles" => "Admin",
         "image" => "pakdekan.png",
-        "nama_lengkap" => "Dr. Helmy Widyantara"
+        "nama_lengkap" => $nama
+    ]);
+});
+
+Route::get('/riwyat_sensor', function(){
+    $nama = "Pak Helmy";    
+    return view('table',[
+        "title" => "Riwayat Sensor",
+        "username" => "Admin",
+        "roles" => "Admin",
+        "image" => "pakdekan.png",
+        "nama_lengkap" => $nama
     ]);
 });
 

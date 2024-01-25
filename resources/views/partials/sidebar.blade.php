@@ -19,7 +19,14 @@
   <li class="nav-item">
     <a class="nav-link text-success" href="/table">
       <i class="bi bi-layout-text-window-reverse text-success"></i>
-      <span>Daftar Sensor</span>
+      <span>Data Sensor</span>
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link text-success" href="/riwayat_sensor">
+      <i class="bi bi-clock-history text-success"></i>
+      <span>Riwayat Sensor</span>
     </a>
   </li>
 
