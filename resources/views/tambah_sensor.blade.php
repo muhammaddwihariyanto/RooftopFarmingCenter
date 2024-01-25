@@ -27,17 +27,47 @@
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Nama Sensor</label>
                   <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  <!-- <div id="emailHelp" class="form-text">Nama Sensor.</div> -->
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Jenis Sensor</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1">
+                  <label for="exampleInputEmail1" class="form-label">Nama Sensor</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <!-- <div id="emailHelp" class="form-text">Nama Sensor.</div> -->
                 </div>
-                <div class="mb-3 form-check">
+                <br>
+                <label for="exampleInputEmail1" class="form-label">Koordinat</label>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Latitude</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">Y</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Insert Latitude Here">
+                      </div>
+                      <!-- <div id="emailHelp" class="form-text">Nama Sensor.</div> -->
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Longitude</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">X</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Insert Longitude Here">
+                      </div>
+                      <!-- <div id="emailHelp" class="form-text">Nama Sensor.</div> -->
+                    </div>
+                  </div>
+                <!-- <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                </div> -->
+                <a href="#">
+                  <button class="btn btn-primary">Submit</button>
+                </a>
               </form>
               <!-- Form End -->
             </div>
