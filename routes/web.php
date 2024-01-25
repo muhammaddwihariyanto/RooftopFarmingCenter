@@ -33,10 +33,10 @@ Route::get('/dashboard', function () {
     ])
         ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/RooftopITTS2/pH2/la');
     $pH = json_decode($pH_client->body(), true);
-    //dd($pH['m2m:cin']['con']);
+    // dd($pH['m2m:cin']['con']);
     foreach ($pH as $key ) {
-       // echo (int)($key["con"]);
-        //dd((float)$key["con"]);
+       echo (int)($key["con"]);
+        dd((float)$key["con"]);
     }
     $ec_client = Http::withHeaders([
         'X-M2M-Origin' => 'dfadb386eb62b10a:99882941cb61d872',
