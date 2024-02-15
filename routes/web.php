@@ -28,11 +28,11 @@ Route::get('home', ([HomeController::class, 'index']))->name('home');
 
 Route::get('/dashboard', function () {
     $pH_client = Http::withHeaders([
-        'X-M2M-Origin' => 'dfadb386eb62b10a:99882941cb61d872',
+        'X-M2M-Origin' => '44dbb85550128192:c079ec55758e79bb',
         'Content-Type' => 'application/json;ty=4',
         'Accept' => 'application/json'
     ])
-        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/RooftopITTS2/pH2/la');
+        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/interest/ph/la');
     $pH = json_decode($pH_client->body(), true);
     // dd($pH['m2m:cin']['con']);
     foreach ($pH as $key ) {
@@ -40,51 +40,51 @@ Route::get('/dashboard', function () {
         dd((float)$key["con"]);
     }
     $ec_client = Http::withHeaders([
-        'X-M2M-Origin' => 'dfadb386eb62b10a:99882941cb61d872',
+        'X-M2M-Origin' => '44dbb85550128192:c079ec55758e79bb',
         'Content-Type' => 'application/json;ty=4',
         'Accept' => 'application/json'
     ])
-        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/RooftopITTS2/Conductivity2/la');
+        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/interest/EC/la');
     $ec = json_decode($ec_client->body(), true);
     foreach ($ec as $key ) {
 
     }
     $sm_client = Http::withHeaders([
-        'X-M2M-Origin' => 'dfadb386eb62b10a:99882941cb61d872',
+        'X-M2M-Origin' => '44dbb85550128192:c079ec55758e79bb',
         'Content-Type' => 'application/json;ty=4',
         'Accept' => 'application/json'
     ])
-        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/RooftopITTS2/Moisture2/la');
+        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/interest/humidity/la');
     $sm = json_decode($sm_client->body(), true);
     $st_client = Http::withHeaders([
-        'X-M2M-Origin' => 'dfadb386eb62b10a:99882941cb61d872',
+        'X-M2M-Origin' => '44dbb85550128192:c079ec55758e79bb',
         'Content-Type' => 'application/json;ty=4',
         'Accept' => 'application/json'
     ])
-        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/RooftopITTS2/Temperature2/la');
+        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/interest/temp/la');
     $st = json_decode($st_client->body(), true);
     $nitro_client = Http::withHeaders([
-        'X-M2M-Origin' => 'dfadb386eb62b10a:99882941cb61d872',
+        'X-M2M-Origin' => '44dbb85550128192:c079ec55758e79bb',
         'Content-Type' => 'application/json;ty=4',
         'Accept' => 'application/json'
     ])
-        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/RooftopITTS2/Nitrogen2/la');
+        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/interest/Nitrogen/la');
     $nit = json_decode($nitro_client->body(), true);
 
     $potassium_client = Http::withHeaders([
-        'X-M2M-Origin' => 'dfadb386eb62b10a:99882941cb61d872',
+        'X-M2M-Origin' => '44dbb85550128192:c079ec55758e79bb',
         'Content-Type' => 'application/json;ty=4',
         'Accept' => 'application/json'
     ])
-        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/RooftopITTS2/Potassium2/la');
+        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/interest/pota/la');
     $kalium = json_decode($potassium_client->body(), true);
 
     $phos_client = Http::withHeaders([
-        'X-M2M-Origin' => 'dfadb386eb62b10a:99882941cb61d872',
+        'X-M2M-Origin' => '44dbb85550128192:c079ec55758e79bb',
         'Content-Type' => 'application/json;ty=4',
         'Accept' => 'application/json'
     ])
-        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/RooftopITTS2/Phosporus2/la');
+        ->get('https://platform.antares.id:8443/~/antares-cse/antares-id/interest/phospor/la');
     $phosporus = json_decode($phos_client->body(), true);
 
     return view('dashboard', [
