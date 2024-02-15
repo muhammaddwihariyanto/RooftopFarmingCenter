@@ -37,7 +37,7 @@ Route::get('/dashboard', function () {
     // dd($pH['m2m:cin']['con']);
     foreach ($pH as $key ) {
        echo (int)($key["con"]);
-        dd((float)$key["con"]);
+       // dd((float)$key["con"]);
     }
     $ec_client = Http::withHeaders([
         'X-M2M-Origin' => '44dbb85550128192:c079ec55758e79bb',
@@ -104,7 +104,7 @@ Route::get('/dashboard', function () {
 });
 
 Route::get('/table', function(){
-    $nama = "Pak Helmy";    
+    $nama = "Pak Helmy";
     return view('table',[
         "title" => "Tabel",
         "username" => "Admin",
@@ -115,7 +115,7 @@ Route::get('/table', function(){
 });
 
 Route::get('/riwyat_sensor', function(){
-    $nama = "Pak Helmy";    
+    $nama = "Pak Helmy";
     return view('table',[
         "title" => "Riwayat Sensor",
         "username" => "Admin",
