@@ -21,7 +21,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light p-2">
     <img class="logoRFC" src="asset/image/logorfc-fotor.png" alt="logorfc">
-    <img class="logoITTS" src="asset/image/logoITTS.png" alt="logoitts">
+    <img class="logoTUS" src="asset/image/logoTUS.png" alt="logotus" style="width: 180px; height: auto; padding-left: 20px">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -106,7 +106,7 @@
             <img src="asset/image/pohonjeruk.jpg" alt="Service 3" class="card-img-top">
             <div class="card-body slide-right">
               <h5 class="card-title">BUDIDAYA POHON JERUK & POHON PEPAYA</h5>
-              <p class="card-text">Tanaman jeruk saat ini mulai dibudidayakan pada smart rooftop ITTelkom Surabaya. Tanaman pepaya juga merupakan tanaman yang sudah cukup lama dibudidayakan pada smart rooftop ITTelkom Surabaya.</p>
+              <p class="card-text">Tanaman jeruk saat ini mulai dibudidayakan pada smart rooftop Kampus Telkom Surabaya. Tanaman pepaya juga merupakan tanaman yang sudah cukup lama dibudidayakan pada smart rooftop Kampus Telkom Surabaya.</p>
             </div>
           </div>
         </div>
