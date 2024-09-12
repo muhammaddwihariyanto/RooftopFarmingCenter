@@ -52,12 +52,12 @@
     <div class="container text-center">
         <h1 class="display-4">Selamat Datang di Rooftop Farming Center</h1>
         <p class="lead">Transforming rooftops into sustainable green spaces</p>
-    <div class="video-container">
+    {{-- <div class="video-container">
         <video autoplay muted loop>
           <source src="asset/video/profil.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-    </div>
+    </div> --}}
   </header>
 
   <!-- About Section -->
